@@ -1,12 +1,12 @@
 package p5_inheritance
 
 fun main() {
-//    // 1- inheritance basics
-//    // 1-1-
-//    val person = Person("name1", "a lastname", "Barcelona")
-//    val basePerson = BasePersonInfo()
-//    basePerson.printPersonProviderType()
-//    basePerson.printInfo(person)
+    // 1- inheritance basics
+    // 1-1-
+    val person = Person("name1", "a lastname", "Barcelona")
+    val basePerson = BasePersonInfo()
+    basePerson.printPersonProviderType()
+    basePerson.printInfo(person)
 
 //    // 1-2 Anonymous class implementation
 //    val anonymousPerson = object : PersonInfoProvider {

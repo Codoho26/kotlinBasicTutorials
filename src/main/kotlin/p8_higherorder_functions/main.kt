@@ -10,26 +10,26 @@ fun customFilterPredicateFunc(): (Person) -> Boolean {
 }
 
 fun main() {
-//    // 1- defining a predicate
-//    val persons = listOf(
-//        Person(),
-//        Person("name1", "a lastname"),
-//        Person("myName", "other lastname"),˚
-//        Person("other name", "last lastname"),
-//    )
-//    val personFilter = PersonFilter()
-//    personFilter.filterByName(persons, customFilterPredicate)
-
-    // 2- Including null values
+    // 1- defining a predicate
     val persons = listOf(
         Person(),
         Person("Name1", "a lastname"),
         Person("Name two", "other lastname"),
-        Person("Other name", "last lastname"),
-        null
+        Person("Other name", "last lastname")
     )
     val personFilter = PersonFilter()
     personFilter.filterByName(persons, customFilterPredicate)
-    personFilter.filterByName(persons, null)
-    personFilter.filterByName(persons, customFilterPredicateFunc())
+
+//    // 2- Including null values
+//    val persons = listOf(
+//        Person(),
+//        Person("Name1", "a lastname"),
+//        Person("Name two", "other lastname"),
+//        Person("Other name", "last lastname"),
+//        null
+//    )
+//    val personFilter = PersonFilter()
+//    personFilter.filterByNameNullable(persons, customFilterPredicate)
+//    personFilter.filterByNameNullable(persons, null)
+//    personFilter.filterByNameNullable(persons, customFilterPredicateFunc())
 }
