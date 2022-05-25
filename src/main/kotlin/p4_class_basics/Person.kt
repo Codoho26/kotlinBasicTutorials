@@ -19,8 +19,8 @@ class Person(firstName: String, lastName: String, city: String = "MyCity") {
 
 }
 
-//// 1.1 - secondary constructor:
-//// NOTE: if a field (already initialized in primary ctor) is to be re-initialized in secondary ctor, the field needs
+// 1.1 - secondary constructor:
+// NOTE: if a field (already initialized in primary ctor) is to be re-initialized in secondary ctor, the field needs
 //// to be defined as mutable, i.e. using "var"
 //class Person {
 //    var firstName: String
@@ -71,7 +71,7 @@ class Person(firstName: String, lastName: String, city: String = "MyCity") {
 //        return "person is $firstName $lastName from city of $city"
 //    }
 //}
-
+//
 //// 5- extending class functionality
 //// Note: to access the fields they need to be public
 //fun Person.greeting(): String {

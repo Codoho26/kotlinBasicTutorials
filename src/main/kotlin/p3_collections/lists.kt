@@ -11,7 +11,7 @@ fun main() {
     // List provides only read-only functionalities. However, it is "mutable" (because with some casting its elements
     // can be modified). NOTE: this applies to all such Collections (List, Set, ...) which are namely non-mutable and
     // read-only but actually "not" immutable.
-    val things = listOf("desk", "other thing", "chair")
+    val things: List<String> = listOf("desk", "other thing", "chair")
 
     // things.add("bla") --> does not work, List has no write functionality
 
