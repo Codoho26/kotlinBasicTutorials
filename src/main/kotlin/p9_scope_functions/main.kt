@@ -1,4 +1,4 @@
-package p9_streams
+package p9_scope_functions
 
 fun main() {
     // 1- streams
@@ -48,4 +48,7 @@ fun main() {
     firstNameToLastNameLength.forEach {
         println("for person with name ${it.key} the lastname length is ${it.value}")
     }
+
+
+
 }

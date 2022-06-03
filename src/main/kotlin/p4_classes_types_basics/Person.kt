@@ -1,4 +1,4 @@
-package p4_class_basics
+package p4_classes_types_basics
 
 // 1- Kotlin has primary and secondary constructors.
 // Primary constructor is specified right away as arguments

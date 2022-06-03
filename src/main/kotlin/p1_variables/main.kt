@@ -6,7 +6,8 @@ const val name = "name1"
 var globalGreeting: String? = "Hello world"
 
 fun main() {
-//    // 1- variable definition
+
+//    // 1-3 variable definition
 //    // val: to define final variables
 //    // var: to define non-final variables
 //    val greeting: String = "Hello there"
@@ -65,6 +66,7 @@ fun main() {
     // references are equal?
     println(st1 === st2)
     println(st1 === st3)
+
 }
 
 fun getMyNullString(): String? {

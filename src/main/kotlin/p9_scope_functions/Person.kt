@@ -1,4 +1,4 @@
-package p9_streams
+package p9_scope_functions
 
 // 4- class methods
 class Person(val firstName: String = "myName", val lastName: String = "myLastName", private val city: String = "myCity") {

@@ -1,4 +1,4 @@
-package p4_class_basics
+package p4_classes_types_basics
 
 fun main() {
     // 1, 1.1 & 2- Different Class definition
